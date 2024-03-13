@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="desafio12.IdadePessoa"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.calculos.Classificacao"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.calculos.FiltroDeRecomendacao"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Episodio"/>
+    <fullyQualifiedTypeName name="calculaMoeda.IConvercaoFinanceira"/>
+    <fullyQualifiedTypeName name="calculaMoeda.ConversorMoeda"/>
+    <fullyQualifiedTypeName name="calculaSalaRetangular.ICalculoGeometrico"/>
+    <fullyQualifiedTypeName name="calculaSalaRetangular.CalcularSalaRetangular"/>
+    <fullyQualifiedTypeName name="minhasMuicasbr.com.alura.minhamusicas.modelo.Audio"/>
+    <fullyQualifiedTypeName name="minhasMuicasbr.com.alura.minhamusicas.modelo.Musica"/>
+    <fullyQualifiedTypeName name="javax.imageio.metadata.IIOMetadataFormatImpl"/>
+    <fullyQualifiedTypeName name="minhasMuicasbr.com.alura.minhamusicas.modelo.Podcast"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="minhasMuicasbr.com.alura.minhamusicas.modelo.MinhasPreferidas"/>
+    <fullyQualifiedTypeName name="br.com.alura.referenciaDeObjetos.Aluno"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Filme"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Serie"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="br.com.alura.desafio8.Animal"/>
+    <fullyQualifiedTypeName name="br.com.alura.desafio.ex5.Forma"/>
+    <fullyQualifiedTypeName name="br.com.alura.desafio.ex6.ContaBancaria"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Titulo"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="br.com.alura.compras.interfaces.ICompras"/>
+    <fullyQualifiedTypeName name="javax.smartcardio.CommandAPDU"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="br.com.alura.compras.beans.Compras"/>
+    <fullyQualifiedTypeName name="br.com.alura.compras.interfaces.ICredito"/>
+    <fullyQualifiedTypeName name="br.com.alura.compras.beans.Credito"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+</qualifiedTypeNameHistroy>

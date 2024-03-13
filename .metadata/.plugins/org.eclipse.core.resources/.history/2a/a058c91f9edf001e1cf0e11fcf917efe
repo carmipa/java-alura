@@ -1,0 +1,9 @@
+package bytebankbr.com.alura.bytebank.beans;
+
+public class Conta {
+
+	public Double saldo;
+	int agenda;
+	int numero;
+	String titular;
+}

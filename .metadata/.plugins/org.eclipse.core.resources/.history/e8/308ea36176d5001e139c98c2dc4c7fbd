@@ -1,0 +1,89 @@
+package br.com.alura.screenmatch.main;
+
+import java.util.ArrayList;
+
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.alura.screenmatch.calculos.FiltroDeRecomendacao;
+import br.com.alura.screenmatch.modelos.Episodio;
+import br.com.alura.screenmatch.modelos.Filme;
+import br.com.alura.screenmatch.modelos.Serie;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		System.out.println("\n......................................................................\n");
+		
+		Filme poderosoChefao = new Filme();
+		
+		poderosoChefao.setNome("O Poderoso Chefão");
+		poderosoChefao.setAnoDeLancamento(1972);
+		poderosoChefao.setDuracaoEmMinutos(180);
+		System.out.println("Duração do filme: " + poderosoChefao.getDuracaoEmMinutos());
+		
+			
+		poderosoChefao.exibeFichaTecnica();
+		poderosoChefao.avalia(8);
+		poderosoChefao.avalia(5);
+		poderosoChefao.avalia(10);
+		System.out.println("Total de avaliações: "  + poderosoChefao.getTotalDeAvaliacoes());
+		System.out.println(poderosoChefao.pegaMedia());
+		
+		System.out.println("\n......................................................................\n");
+		
+		Serie lost = new Serie();
+		
+		lost.setNome("Lost");
+		lost.setAnoDeLancamento(2000);
+		lost.setTemporadas(10);
+		lost.setEpisodioPorTemporada(10);
+		lost.setMinutosPorTemporada(50);
+		lost.exibeFichaTecnica();
+		System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos());
+		
+		System.out.println("\n......................................................................\n");
+		
+		Filme avatar = new Filme();
+		
+		avatar.setNome("Avatar 2 - Caminho das Águas");
+		avatar.setAnoDeLancamento(2023);
+		avatar.setDuracaoEmMinutos(200);
+		avatar.exibeFichaTecnica();
+				
+		System.out.println("\n......................................................................\n");
+		
+		CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+		
+		calculadora.inclui(poderosoChefao);
+		calculadora.inclui(avatar);
+		calculadora.inclui(lost);
+		System.out.println(calculadora.getTempoTotal());
+		
+		System.out.println("\n......................................................................\n");
+		
+		FiltroDeRecomendacao filtro = new FiltroDeRecomendacao();
+				
+		Episodio episodio = new Episodio();
+		episodio.setNumero(1);
+		episodio.setSerie(lost);
+		episodio.setTotalVisualizacoes(300);
+		filtro.filtra(episodio);
+		
+		System.out.println("\n......................................................................\n");
+		
+		Filme filmeDoPaulo = new Filme();
+		
+		filmeDoPaulo.setNome("DogVille");
+		filmeDoPaulo.setDuracaoEmMinutos(200);
+		filmeDoPaulo.setAnoDeLancamento(2003);
+		filmeDoPaulo.avalia(10);
+		
+		ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+		
+		System.out.println("\n......................................................................\n");
+		
+		
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package livro;
+
+public class Livro {
+	
+	public double precofinalProdutoFisico;
+	public double taxasProdutoFisico;
+	public double descontoProdutoFisico;
+	
+	public double getPrecofinalProdutoFisico() {
+		return precofinalProdutoFisico;
+	}
+	public void setPrecofinalProdutoFisico(double precofinalProdutoFisico) {
+		this.precofinalProdutoFisico = precofinalProdutoFisico;
+	}
+	public double getTaxasProdutoFisico() {
+		return taxasProdutoFisico;
+	}
+	public void setTaxasProdutoFisico(double taxasProdutoFisico) {
+		this.taxasProdutoFisico = taxasProdutoFisico;
+	}
+	public double getDescontoProdutoFisico() {
+		return descontoProdutoFisico;
+	}
+	public void setDescontoProdutoFisico(double descontoProdutoFisico) {
+		this.descontoProdutoFisico = descontoProdutoFisico;
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,9 @@
+package livro;
+
+public class produtoFisico {
+	
+	public double precofinalProdutoFisico;
+	public double taxasProdutoFisico;
+	public double descontoProdutoFisico;
+
+}

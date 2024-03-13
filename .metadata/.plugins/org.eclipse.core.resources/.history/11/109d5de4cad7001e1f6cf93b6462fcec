@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class TesteProdutoToString {
+
+	public static void main(String[] args) {
+		
+		ArrayList<ProdutoToString> lista = new ArrayList<>();
+		
+		lista.add(new ProdutoToString("mouse", 44.50, 30));
+
+		for (ProdutoToString produto : lista) {
+			System.out.println(produto);
+		}
+
+	}
+
+}

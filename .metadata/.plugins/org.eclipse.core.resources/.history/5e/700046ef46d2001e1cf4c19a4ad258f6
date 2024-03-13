@@ -1,0 +1,29 @@
+package vendas;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Produto produto = new Produto();
+		
+		produto.setNomeProduto("Caneta");
+		produto.setPrecoProduto(60);
+		produto.setQuantidadeProduto(30);
+		produto.setDescontoProduto(5);
+		
+		Servico servico = new Servico();
+		servico.set
+		
+		System.out.println("\n..........................................\n");
+		System.out.println("Nome produto..........................: " + produto.getNomeProduto());
+		System.out.println("Preço unitário do produto:............: " + "R$ " + produto.getPrecoProduto());
+		System.out.println("Quantidade de produto.................: " + produto.getQuantidadeProduto());
+		System.out.println("Desconto para o produto...............: " + produto.getDescontoProduto() + "%");
+		System.out.println("\n..........................................\n");
+		produto.calculaPrecoTotalProduto();
+		System.out.println("\n..........................................\n");
+		
+
+	}
+
+}

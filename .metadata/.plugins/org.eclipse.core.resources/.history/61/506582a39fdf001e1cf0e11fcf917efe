@@ -1,0 +1,22 @@
+package br.com.alura.bytebank.main;
+
+import bytebankbr.com.alura.bytebank.beans.Conta;
+
+public class TesteReferencia {
+
+	public static void main(String[] args) {
+		
+		Conta primeiraConta = new Conta();
+		
+		primeiraConta.saldo = (double) 300;
+		System.out.println("Saldo da primeira: " + primeiraConta.saldo);
+		
+		Conta segundaConta = primeiraConta;
+		
+		System.out.println("Saldo da segunda conta: " + segundaConta.saldo);
+		
+		
+
+	}
+
+}

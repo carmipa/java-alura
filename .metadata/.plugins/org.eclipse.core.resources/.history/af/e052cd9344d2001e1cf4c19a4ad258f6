@@ -1,0 +1,36 @@
+package vendas;
+
+public class Servico implements IVendavel{
+	
+	private String nomeServico;
+	private double precoServico;
+	private double descontoServico;
+	private double precoServicoComDesconto;
+	private double precoTotalServico;
+	
+	public double getPrecoServico() {
+		return precoServico;
+	}
+	public void setPrecoServico(double precoServico) {
+		this.precoServico = precoServico;
+	}
+	public double getDescontoServico() {
+		return descontoServico;
+	}
+	public void setDescontoServico(double descontoServico) {
+		this.descontoServico = descontoServico;
+	}
+
+	@Override
+	public void calculaPrecoTotalProduto() {
+		
+		precoServicoComDesconto = (precoServico * descontoServico) / 100;
+		precoTotalServico = precoServico - precoServicoComDesconto;
+		
+		System.out.println("Desconto Total do serviço é de:.......: " + precoTotalServico );
+		
+		
+		
+	}
+
+}
